@@ -1,0 +1,121 @@
+html{
+    margin-top:0;
+    padding-top:0;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin-top:0;
+  padding-top:0;
+}
+
+.month h4 {
+  font-size: 20px;
+  width: 1200px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  width: 1200px;
+}
+
+/* Header */
+
+header {
+  display: inline-flex;
+  height: 69px;
+  width: 1200px;
+  justify-content: space-between;
+  background-color: black;
+  text-decoration: underline;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.logo img {
+  max-width: 155px;
+  max-height: 50px;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url("../resources/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.mission-title {
+  color: white;
+  background-color: black;
+  width: 1200px;
+}
+
+/* Tea of the Month */
+
+
+.tea-of-the-month {
+  display: flex;
+  width: 1200px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+
+/* Locations */
+
+.locations {
+  display: flex;
+  background-image: url("../resources/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.downtown, .east-bayside, .oakdale {
+  background-color: black;
+  margin: 20px;
+  height: 250px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Footer */
+
+
+.contact {
+  text-align: center;
+  width: 1200px;
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
